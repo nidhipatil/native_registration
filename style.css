@@ -1,0 +1,29 @@
+
+.container{
+	    display: flex;
+	    justify-content: center;
+   }
+
+tbody{
+	 background-color:#393939;;
+	 text-decoration:none;
+	 height: 10vh;
+	 color: white;
+  }
+
+.td{
+	color:brown;
+	background-color: white;
+
+    font-size: 123%;
+   }
+a{
+	color:red;
+}
+
+@media screen and (min-width:768px){
+    .container{
+        padding:70px 20%;
+        height: 112%;
+    }  
+}
